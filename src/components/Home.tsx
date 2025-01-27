@@ -14,7 +14,7 @@ const Home = () => {
                 et Node.js  pour le backend avec des Api routes et plusieurs <br />  autres Technologies comme Taillwindcss,clerk, pisma, ...<br />
                 Contactez-moi si vous avez besoin de mes services
             </p>
-            <a href="#" className="btn btn-accent hover:btn-success md:w-fit">
+            <a href="#Footer" className="btn btn-accent hover:btn-success md:w-fit">
                 <Mail className="w-5 h-5"/>
                 Contactez-moi
             </a>

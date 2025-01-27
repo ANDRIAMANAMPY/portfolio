@@ -3,7 +3,7 @@ import { Container, Facebook, Twitter, Youtube } from "lucide-react"
 
 const Footer = () => {
   return (
-    <div>
+    <div id="Footer">
       <footer className="footer footer-center p-10">
   <aside> 
   <Container className='w-10 h-10'/>
@@ -12,8 +12,11 @@ const Footer = () => {
             <span className='text-accent'>ajatiana</span>
       <br />
     </p>
-    <p>Copyright © {new Date().getFullYear()} - ANDRIAMANAMPY Hajatiana</p>
-  </aside>
+    <div className="flex flex-col items-center justify-center">
+      <p><span className="text-accent font-bold">Adresse Email :</span> andriamanampyhajatiana.io@gmail.com</p>
+      <p><span className="text-accent font-bold">Numéro Téléphone :</span> 0389690760</p>
+    </div>
+    </aside>
   <nav>
     <div className="grid grid-flow-col gap-4">
     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
