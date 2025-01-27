@@ -14,16 +14,16 @@ const projects = [
         title: 'Site E-commerce',
         description: 'Ceci est un site vitrine pour les ventes des appareils éléctroniques dans un magasin. Vous-pouvez visiter le site en cliquant sur le bouton "visite site ou vous pouvez voir le source sur github en cliquant sur le bouton voir code".',
         technologies: ['React', 'Tailwind CSS'],
-        demoLink: '#shop-mada.netlify.app',
-        repoLink: '#',
+        demoLink: 'https://shop-mada.netlify.app/',
+        repoLink: 'https://github.com/ANDRIAMANAMPY/E-commerce',
         image: img1,
     },
     {
         id: 2,
-        title: 'Plateforme E-commerce',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae magni deserunt debitis recusandae ab harum totam, eum facilis et ratione officia ut inventore aspernatur',
-        technologies: ['Next.js', 'TypeScript', 'Prisma'],
-        demoLink: '#',
+        title: 'Fitnees-Gym',
+        description: 'On a ici un site vitrine ge gestion de salle de sport. Vous-pouvez visiter le site en cliquant sur le bouton "visite site ou vous pouvez voir le source sur github en cliquant sur le bouton voir code".',
+        technologies: ['React.js', 'TypeScript', 'Tailwindcss'],
+        demoLink: 'https://gym-mada-fitness.netlify.app/',
         repoLink: '#',
         image: img2,
     },
@@ -93,13 +93,13 @@ const Projects = () => {
                             ))}
                         </div>
                         <div className="flex">
-                            <a className="btn btn-accent w-1/2" href="https://shop-mada.netlify.app/" target="blank" rel="noopener noreferrer">
+                            <a className="btn btn-accent w-1/2" href={project.demoLink} target="blank" rel="noopener noreferrer">
                                 visite site
                                 <Video className="w-4" />
                             </a>
 
-                            <a className="btn btn-neutral w-1/2 ml-2" href={project.repoLink}>
-                                <Github className="w-4" /> Voir code
+                            <a className="btn btn-neutral w-1/2 ml-2" href={project.repoLink} target="blank" rel="noopener noreferrer">
+                                <Github className="w-4" />Voir code
                             </a>
                         </div>
                     </div>
