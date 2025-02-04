@@ -26,15 +26,21 @@ const aboutSections = [
 
 const About = () => {
   return (
-    <div className="bg-base-300 p-10 mb-10 md:mb-32" id='About'>
+    <div className="bg-base-300 p-10 mb-10 md:mb-32" 
+    id='About'
+    data-aos="fade-up" 
+    data-aos-duration="800"
+    data-aos-once="true">
         <Title title="A propos" />
         <div className="md:h-96 flex justify-center">
             
-            <div className="hidden md:flex ">
+            <div 
+            className="hidden md:flex ">
                 <img src={img} alt="" className="w-96 object-cover rounded-xl" />
             </div>
 
-            <div className="md:ml-4 space-y-4">
+            <div 
+            className="md:ml-4 space-y-4">
                      {aboutSections.map((section) => (
                         <div key={section.id}
                             className="flex flex-col md:flex-row items-center bg-base-100 p-5 rounded-xl md:w-96 shadow-xl"

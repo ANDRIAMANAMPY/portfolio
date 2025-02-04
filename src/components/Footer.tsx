@@ -4,7 +4,7 @@ import { Container, Facebook, Twitter, Youtube } from "lucide-react"
 const Footer = () => {
   return (
     <div id="Footer">
-      <footer className="footer footer-center p-10">
+      <footer className="footer footer-center p-10 bg-gray-900 rounded-xl">
   <aside> 
   <Container className='w-10 h-10'/>
     <p className="font-bold">

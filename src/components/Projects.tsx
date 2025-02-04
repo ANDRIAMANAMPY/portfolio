@@ -50,7 +50,12 @@ const Projects = () => {
     return (
         <div className="mt-10" id="Projects">
             <Title title="Mes Projets récents 2025" />
-            <div className="grid md:grid-cols-3 gap-4">
+            <div 
+            className="grid md:grid-cols-3 gap-4"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="100">
                 {projects.map((project) => (
                     <div key={project.id} className="bg-base-300 p-5 h-fit rounded-xl shadow-lg ">
                         <img
